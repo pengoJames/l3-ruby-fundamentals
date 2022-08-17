@@ -84,9 +84,21 @@ pp student
 
 # 8.0 Methods
 # TODO: Method with enclosed params
+def count_students(param)
+    puts param
+    "Ruby Methods"
+    90
+end
+
+count_students("Ruby Methods")
 
 # TODO: Method with open params
+def count_tms param1, param2
+    param1 + param2
+end
 
+counted_tms = count_tms 10, 20
+puts counted_tms
 
 
 
